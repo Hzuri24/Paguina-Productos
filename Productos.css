@@ -1,0 +1,86 @@
+header{
+    background-color: #bbb;
+}
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.Productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.Productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%; /* primer valor vertical segundo valor horizontal */
+    padding: 30px 20px ; /* Es una propiedad para dar espacaio dentro de un espacio definido.*/
+    box-sizing: border-box; /*tamaño de la caja*/
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.Productos li:hover{
+    border-color: #c78c19;
+}
+
+.Productos li:active{
+    border-color: #088c19;
+}
+.Productos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Productos li:hover h2{
+    font-size: 33px;
+}
+
+.producto-descripcion{
+    font-size: 18px;
+}
+
+.producto-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg);    
+    padding: 40px;
+}
+
+.CopyRight{
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px;
+}
